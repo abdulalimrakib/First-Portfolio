@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@200&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@200&family=Varela+Round&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 100px;
+}
+
+.top_area {
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.middle_area {
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.last_area {
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.img_box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 100%;
+}
+
+.half_side {
+    margin-left: 5%;
+    padding-left: 2%;
+    width: 40%;
+    float: left;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.highlighter {
+    color: rgb(223, 141, 34);
+}
+
+.button {
+    background-image: linear-gradient(45deg, tomato, rgb(123, 36, 36));
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: wheat;
+    font-weight: 500;
+}
+
+.button:hover {
+    background-image: linear-gradient(45deg, rgb(123, 36, 36), tomato);
+}
+
+#extra {
+    margin-left: 20px;
+}
+
+.experience {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+}
+
+#box1 {
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(48, 238, 232), rgb(23, 135, 150));
+    border-image-slice: 1;
+}
+
+#box2 {
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(219, 74, 232), rgb(139, 23, 150));
+    border-image-slice: 1;
+}
